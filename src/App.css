@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+
+.movie-container{
+  width:340px;
+  margin-top: 12px;
+}
+
+.movie-poster{
+  height:400px;
+  width:340px;
+  
+}
+
+.movie-specs{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+.movie-rating{
+  font-size:18px;
+}
+
+.movie-name{
+  font-size: 24px;
+  margin:0;
+  max-width:70%
+}
+
+.movie-summary{
+  margin-top:0;
+}
+
+.home-detail{
+  text-align: center;
+  margin-top: 50px;
+}
+
+body{
+
+font-family: 'Poppins', sans-serif;
+}
+
+
+
+.c-item {
+  height: 300px;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.movie-list{
+  display:flex;
+  gap:24px;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+
+.counter-container{
+  display:flex;
+  gap:10px;
+}
+
+.likes-dislikes{
+  font-size: 20px;
+  
+}
+
+.movie-show-button{
+  font-size: 18px;
+  margin-bottom:20px;
+}
+
+.add-movie-form{
+  margin:20px;
+  display:flex;
+  gap:10px;
+  flex-direction:column;
+}
+
+nav{
+  font-size:24px;
+  display:flex;
+  gap:24px;
+  margin:20px;
+}
+
+/* .not-found-img{
+  width:100%;
+  object-fit:cover;
+} */
+
+.not-found-container{
+  text-align:center;
+  color:teal;
+}
+
+.movie-detail-container{
+padding:20px;
+display: flex;
+flex-direction: column;
+justify-self: center;
+align-items: center;  
+}
+.movie-summary{
+  width:90%;
+  
+}
